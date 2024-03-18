@@ -5,6 +5,7 @@ project(stdy)
 enable_testing()
 add_subdirectory(lib/googletest)
 
+add_subdirectory(old_hw)
 add_subdirectory(bubble_sort)
 add_subdirectory(bubble_sort_mf)
 add_subdirectory(unit_test_example)
